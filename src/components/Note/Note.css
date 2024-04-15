@@ -1,0 +1,52 @@
+  .note {
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 300px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .note:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  .collapse {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+  
+  .note h3, p {
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .note h3 {
+    text-align: center;
+  }
+  
+  .note p {
+    margin-bottom: 10px;
+  }
+  
+  .media-container {
+    margin-bottom: 10px;
+  }
+  
+  .timestamp {
+    font-size: 0.9rem;
+    color: #777;
+  }
+
+  .media-container img {
+    width: 18rem;
+    margin-top: 10px;
+    border-radius: 10px;
+  }

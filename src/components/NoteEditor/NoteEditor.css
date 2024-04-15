@@ -1,0 +1,52 @@
+.note-editor {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.note-editor input[type="text"],
+.note-editor .ql-container {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.note-editor .ql-container {
+    height: 150px;
+}
+
+.note-editor button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.note-editor button:hover {
+    background-color: #45a049;
+}
+
+.note-editor .color-div {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.note-editor .color-div label {
+    margin-right: 10px;
+}
+
+.note-editor input[type="color"] {
+    padding: 0;
+    border: none;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
